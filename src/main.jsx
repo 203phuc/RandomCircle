@@ -1,7 +1,7 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import BlockGameWithoutOverlapCheck from "./App.jsx";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import BlockGameWithoutOverlapCheck from "./App";
+import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
